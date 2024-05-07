@@ -1,0 +1,17 @@
+add rd, rs, rt fun: 100000       000000 rs rt rd 00000 100000
+sub rd, rs, rt fun: 100010       000000 rs rt rd 00000 100010
+slt rd, rs, rt fun: 101010       000000 rs rt rd 00000 101010
+and rd, rs, rt fun: 100100       000000 rs rt rd 00000 100100
+or  rd, rs, rt fun: 100101       000000 rs rt rd 00000 100101
+jr  rs         fun: 001000       000000 rs 00000 00000 00000 001000
+
+
+addi rt, rs, imm                 001000 rs rt imm
+slti rt, rs, imm                 001010 rs rt imm
+lw rt, imm(rs)                   100011 rs rt imm
+sw rt, imm(rs)                   101011 rs rt imm
+beq rs, rt, label                000100 rs rt imm
+
+
+j label                          000010 label
+jal label                        000011 label

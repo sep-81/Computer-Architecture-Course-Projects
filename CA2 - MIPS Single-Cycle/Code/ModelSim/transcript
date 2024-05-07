@@ -1,0 +1,161 @@
+# Compile of MIPS.v was successful.
+# Compile of MIPS_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.MIPS_TestBench
+# vsim -gui work.MIPS_TestBench 
+# Start time: 12:24:30 on May 18,2022
+# Loading work.MIPS_TestBench
+# Loading work.MIPS
+# Loading work.MIPSControler
+# Loading work.MIPSDataPath
+# Loading work.MUX
+# Loading work.ALU
+# Loading work.RegFile
+# Loading work.Memory
+# Loading work.InstMemory
+# Loading work.Register
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'data_path'.  Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_TestBench/to_be_tested/data_path File: D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v Line: 42
+# ** Warning: (vsim-3722) D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v(42): [TFMPC] - Missing connection for port 'st'.
+add wave -position end  sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory
+run -all
+# ** Note: $stop    : D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v(15)
+#    Time: 50050 ns  Iteration: 0  Instance: /MIPS_TestBench
+# Break in Module MIPS_TestBench at D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v line 15
+add wave -position insertpoint  \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2010]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2009]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2008]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2007]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2006]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2005]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2004]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2003]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2002]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2001]} \
+{sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory[2000]}
+# **** Error: SelectedSignalQ cmd: QObjects::SelectedTrigger .main_pane.objects sim
+# ****        invalid command name ""
+# invalid command name ""
+#     while executing
+# "$TreeView absnameToReferencePath $useIds $top $absname"
+#     (procedure "ObjectsTreeView::AbsnameToReferencePath" line 4)
+#     invoked from within
+# "ObjectsTreeView::AbsnameToReferencePath $useIds $top $ssig"
+#     (procedure "SelectFromName" line 41)
+#     invoked from within
+# "SelectFromName $w $sig 0"
+#     (procedure "QObjects::SelectedTrigger" line 18)
+#     invoked from within
+# "QObjects::SelectedTrigger .main_pane.objects sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+quit -sim
+# End time: 12:59:54 on May 18,2022, Elapsed time: 0:35:24
+# Errors: 0, Warnings: 7
+# Break key hit
+vsim -gui work.MIPS_TestBench
+# vsim -gui work.MIPS_TestBench 
+# Start time: 13:07:03 on May 18,2022
+# Loading work.MIPS_TestBench
+# Loading work.MIPS
+# Loading work.MIPSControler
+# Loading work.MIPSDataPath
+# Loading work.MUX
+# Loading work.ALU
+# Loading work.RegFile
+# Loading work.Memory
+# Loading work.InstMemory
+# Loading work.Register
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'data_path'.  Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_TestBench/to_be_tested/data_path File: D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v Line: 42
+# ** Warning: (vsim-3722) D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v(42): [TFMPC] - Missing connection for port 'st'.
+add wave -position end  sim:/MIPS_TestBench/to_be_tested/data_path/reg_file/memory
+run -all
+# ** Note: $stop    : D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v(15)
+#    Time: 50050 ns  Iteration: 0  Instance: /MIPS_TestBench
+# Break in Module MIPS_TestBench at D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v line 15
+quit -sim
+# End time: 13:11:58 on May 18,2022, Elapsed time: 0:04:55
+# Errors: 0, Warnings: 3
+# Compile of MIPS.v was successful.
+# Compile of MIPS_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_TestBench
+# vsim -gui work.MIPS_TestBench 
+# Start time: 13:12:15 on May 18,2022
+# Loading work.MIPS_TestBench
+# Loading work.MIPS
+# Loading work.MIPSControler
+# Loading work.MIPSDataPath
+# Loading work.MUX
+# Loading work.ALU
+# Loading work.RegFile
+# Loading work.Memory
+# Loading work.InstMemory
+# Loading work.Register
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'data_path'.  Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_TestBench/to_be_tested/data_path File: D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v Line: 42
+# ** Warning: (vsim-3722) D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v(42): [TFMPC] - Missing connection for port 'st'.
+add wave -position end  sim:/MIPS_TestBench/to_be_tested/data_path/memory/memory
+run -all
+# ** Note: $stop    : D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v(15)
+#    Time: 50050 ns  Iteration: 0  Instance: /MIPS_TestBench
+# Break in Module MIPS_TestBench at D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v line 15
+add wave -position end  sim:/MIPS_TestBench/to_be_tested/data_path/reg_file/memory
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'data_path'.  Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_TestBench/to_be_tested/data_path File: D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v Line: 42
+# ** Warning: (vsim-3722) D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v(42): [TFMPC] - Missing connection for port 'st'.
+run -all
+# ** Note: $stop    : D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v(15)
+#    Time: 50050 ns  Iteration: 0  Instance: /MIPS_TestBench
+# Break in Module MIPS_TestBench at D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v line 15
+quit -sim
+# End time: 13:30:23 on May 18,2022, Elapsed time: 0:18:08
+# Errors: 0, Warnings: 3
+vsim -gui work.MIPS_TestBench
+# vsim -gui work.MIPS_TestBench 
+# Start time: 13:31:26 on May 18,2022
+# Loading work.MIPS_TestBench
+# Loading work.MIPS
+# Loading work.MIPSControler
+# Loading work.MIPSDataPath
+# Loading work.MUX
+# Loading work.ALU
+# Loading work.RegFile
+# Loading work.Memory
+# Loading work.InstMemory
+# Loading work.Register
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'data_path'.  Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_TestBench/to_be_tested/data_path File: D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v Line: 42
+# ** Warning: (vsim-3722) D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v(42): [TFMPC] - Missing connection for port 'st'.
+add wave -position end sim:/MIPS_TestBench/to_be_tested/data_path/reg_file/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'data_path'.  Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_TestBench/to_be_tested/data_path File: D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v Line: 42
+# ** Warning: (vsim-3722) D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v(42): [TFMPC] - Missing connection for port 'st'.
+run -all
+# ** Note: $stop    : D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v(15)
+#    Time: 50050 ns  Iteration: 0  Instance: /MIPS_TestBench
+# Break in Module MIPS_TestBench at D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v line 15
+add wave -position end  sim:/MIPS_TestBench/to_be_tested/data_path/reg_file/memory
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'data_path'.  Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_TestBench/to_be_tested/data_path File: D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v Line: 42
+# ** Warning: (vsim-3722) D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v(42): [TFMPC] - Missing connection for port 'st'.
+run -all
+# ** Note: $stop    : D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v(15)
+#    Time: 50050 ns  Iteration: 0  Instance: /MIPS_TestBench
+# Break in Module MIPS_TestBench at D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v line 15
+quit -sim
+# End time: 13:36:18 on May 18,2022, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 3

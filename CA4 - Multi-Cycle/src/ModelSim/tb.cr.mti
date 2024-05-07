@@ -1,0 +1,49 @@
+D:/ut/Term4/CA_computer_artitucther/CA04/src/src/Controller.v {1 {vlog -work work -stats=none D:/ut/Term4/CA_computer_artitucther/CA04/src/src/Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_TestBench.v {1 {vlog -work work -stats=none D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+-- Compiling module MUX
+-- Compiling module Register
+-- Compiling module RegFile
+-- Compiling module Memory
+-- Compiling module MIPS_DataPath
+-- Compiling module Controller
+-- Compiling module MIPS
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} D:/ut/Term4/CA_computer_artitucther/CA04/src/src/DataPath.v {1 {vlog -work work -stats=none D:/ut/Term4/CA_computer_artitucther/CA04/src/src/DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+-- Compiling module MUX
+-- Compiling module Register
+-- Compiling module RegFile
+-- Compiling module Memory
+-- Compiling module MIPS_DataPath
+
+Top level modules:
+	MIPS_DataPath
+
+} {} {}} D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_MultiCycle.v {1 {vlog -work work -stats=none D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_MultiCycle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+-- Compiling module MUX
+-- Compiling module Register
+-- Compiling module RegFile
+-- Compiling module Memory
+-- Compiling module MIPS_DataPath
+-- Compiling module Controller
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}}

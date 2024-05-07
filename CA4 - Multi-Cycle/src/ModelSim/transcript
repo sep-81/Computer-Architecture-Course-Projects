@@ -1,0 +1,38 @@
+# Reading pref.tcl
+# OpenFile D:/ut/Term4/CA_computer_artitucther/CA04/src/ModelSim/tb.mpf
+# Loading project tb
+vsim -gui work.TestBench
+# vsim -gui work.TestBench 
+# Start time: 19:12:10 on Jun 19,2022
+# Loading work.TestBench
+# Loading work.MIPS
+# Loading work.MIPS_DataPath
+# Loading work.Register
+# Loading work.MUX
+# Loading work.Memory
+# Loading work.RegFile
+# Loading work.ALU
+# Loading work.Controller
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/to_be_tested/data_path/alu File: D:/ut/Term4/CA_computer_artitucther/CA04/src/src/DataPath.v Line: 206
+# ** Warning: (vsim-3722) D:/ut/Term4/CA_computer_artitucther/CA04/src/src/DataPath.v(206): [TFMPC] - Missing connection for port 'neg_flag'.
+add wave -position insertpoint  \
+sim:/TestBench/rst
+add wave -position insertpoint  \
+sim:/TestBench/clk
+add wave -position end  sim:/TestBench/to_be_tested/data_path/memory/memory
+add wave -position end  sim:/TestBench/rst
+add wave -position end  sim:/TestBench/clk
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/to_be_tested/data_path/alu File: D:/ut/Term4/CA_computer_artitucther/CA04/src/src/DataPath.v Line: 206
+# ** Warning: (vsim-3722) D:/ut/Term4/CA_computer_artitucther/CA04/src/src/DataPath.v(206): [TFMPC] - Missing connection for port 'neg_flag'.
+run -all
+# ** Note: $stop    : D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_TestBench.v(15)
+#    Time: 500055 ps  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_TestBench.v line 15
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 19:18:50 on Jun 19,2022, Elapsed time: 0:06:40
+# Errors: 0, Warnings: 4

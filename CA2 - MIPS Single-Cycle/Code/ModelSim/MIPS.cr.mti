@@ -1,0 +1,32 @@
+{D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v} {1 {vlog -work work -stats=none {D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPSControler
+-- Compiling module ALU
+-- Compiling module Memory
+-- Compiling module MUX
+-- Compiling module RegFile
+-- Compiling module Register
+-- Compiling module InstMemory
+-- Compiling module MIPSDataPath
+-- Compiling module MIPS
+-- Compiling module MIPS_TestBench
+
+Top level modules:
+	MIPS_TestBench
+
+} {} {}} {D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v} {1 {vlog -work work -stats=none {D:/ut/Term4/CA_computer_artitucther/CA02/CA2 (3)/CA2/MIPS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPSControler
+-- Compiling module ALU
+-- Compiling module Memory
+-- Compiling module MUX
+-- Compiling module RegFile
+-- Compiling module Register
+-- Compiling module InstMemory
+-- Compiling module MIPSDataPath
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}}

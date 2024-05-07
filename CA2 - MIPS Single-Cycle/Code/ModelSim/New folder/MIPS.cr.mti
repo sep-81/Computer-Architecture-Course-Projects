@@ -1,0 +1,94 @@
+D:/Uni/Semester4/Comp_Architucture/CA/CA2/MIPS.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/MIPS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPSControler
+-- Compiling module ALU
+-- Compiling module Memory
+-- Compiling module MUX
+-- Compiling module RegFile
+-- Compiling module Register
+-- Compiling module InstMemory
+-- Compiling module MIPSDataPath
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}} D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/InstMemory.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/InstMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstMemory
+
+Top level modules:
+	InstMemory
+
+} {} {}} D:/Uni/Semester4/Comp_Architucture/CA/CA2/MIPS_TB.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/MIPS_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPSControler
+-- Compiling module ALU
+-- Compiling module Memory
+-- Compiling module MUX
+-- Compiling module RegFile
+-- Compiling module Register
+-- Compiling module InstMemory
+-- Compiling module MIPSDataPath
+-- Compiling module MIPS
+-- Compiling module MIPS_TestBench
+
+Top level modules:
+	MIPS_TestBench
+
+} {} {}} D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/MIPS_DataPath.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/MIPS_DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+-- Compiling module Memory
+-- Compiling module MUX
+-- Compiling module RegFile
+-- Compiling module Register
+-- Compiling module InstMemory
+-- Compiling module MIPSDataPath
+
+Top level modules:
+	MIPSDataPath
+
+} {} {}} D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/Register.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/Memory.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/Memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/MIPS_Controller.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/MIPS_Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPSController
+
+Top level modules:
+	MIPSController
+
+} {} {}} D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/ALU.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/MUX.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/MUX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/RegFile.v {1 {vlog -work work -stats=none D:/Uni/Semester4/Comp_Architucture/CA/CA2/src/inner_modules/RegFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}}

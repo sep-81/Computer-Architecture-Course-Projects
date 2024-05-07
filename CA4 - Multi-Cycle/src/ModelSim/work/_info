@@ -1,0 +1,227 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ut/Term4/lab_logic/lab4/Exp-codes
+vALU
+Z0 !s110 1655648999
+!i10b 1
+!s100 mQVNJWf20^kPKBlP@8]8^2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3M@KB_cNceNaFzVml^SYj0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/ut/Term4/CA_computer_artitucther/CA04/src/ModelSim
+w1654871171
+8D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\ALU.v
+FD:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\ALU.v
+!i122 48
+L0 6 24
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1655648999.000000
+!s107 D:\ut\Term4\CA_computer_artitucther\CA04\src\src\Controller.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Memory.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\RegFile.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Register.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\MUX.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\ALU.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\DataPath.v|D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_MultiCycle.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_MultiCycle.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@l@u
+vController
+R0
+!i10b 1
+!s100 BQJZ59Yf50Z<nahf>U=k62
+R1
+ITiK>0TFM98dADNP@hSH<i1
+R2
+R3
+w1655011892
+8D:\ut\Term4\CA_computer_artitucther\CA04\src\src\Controller.v
+FD:\ut\Term4\CA_computer_artitucther\CA04\src\src\Controller.v
+!i122 48
+L0 39 150
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 D:\ut\Term4\CA_computer_artitucther\CA04\src\src\Controller.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Memory.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\RegFile.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Register.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\MUX.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\ALU.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\DataPath.v|D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_MultiCycle.v|
+R6
+!i113 1
+R7
+R8
+n@controller
+vMemory
+R0
+!i10b 1
+!s100 @P^_=@`hP2@?oS;Yh=MV70
+R1
+ITS:TKiFm?CLZRTiiB3Onl1
+R2
+R3
+w1655014208
+8D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Memory.v
+FD:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Memory.v
+!i122 48
+L0 1 41
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+R8
+n@memory
+vMIPS
+R0
+!i10b 1
+!s100 ;dKIYD8gfHN[mn4o9=z3_2
+R1
+I?oIefeVBgZfD8Z7=kGJ:U2
+R2
+R3
+w1654871237
+8D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_MultiCycle.v
+FD:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_MultiCycle.v
+!i122 48
+L0 4 53
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+R8
+n@m@i@p@s
+vMIPS_DataPath
+R0
+!i10b 1
+!s100 L[R8Oh92]@=<QSZRLc]_>2
+R1
+IKJ8PW0K=_3iE3SH=gB?MG0
+R2
+R3
+w1655013785
+8D:\ut\Term4\CA_computer_artitucther\CA04\src\src\DataPath.v
+FD:\ut\Term4\CA_computer_artitucther\CA04\src\src\DataPath.v
+!i122 48
+L0 7 208
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+R8
+n@m@i@p@s_@data@path
+vMUX
+R0
+!i10b 1
+!s100 oJVBc<;3Gl9MbhocFLl3J1
+R1
+II9]IOXJGWLAJ9@89:5WBL1
+R2
+R3
+w1651503418
+8D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\MUX.v
+FD:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\MUX.v
+!i122 48
+L0 6 26
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+R8
+n@m@u@x
+vRegFile
+R0
+!i10b 1
+!s100 e<6H7:;2=GDQPW]MioWW32
+R1
+I>P1_i_4fWcMzeNX4Be8M12
+R2
+R3
+w1651506263
+8D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\RegFile.v
+FD:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\RegFile.v
+!i122 48
+L0 1 37
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+R8
+n@reg@file
+vRegister
+R0
+!i10b 1
+!s100 SHNd5_f_S>0U<@Vl_22`X2
+R1
+IjX7kmigVoF]9V;oe]1?W50
+R2
+R3
+w1649410388
+8D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Register.v
+FD:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Register.v
+!i122 48
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+R8
+n@register
+vTestBench
+R0
+!i10b 1
+!s100 EWXdh:F^Bjg?4lLG[BHJc3
+R1
+IE4MFGKEV[7RinV`WXnoJG3
+R2
+R3
+w1655010495
+8D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_TestBench.v
+FD:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_TestBench.v
+!i122 45
+L0 5 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\ut\Term4\CA_computer_artitucther\CA04\src\src\Controller.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Memory.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\RegFile.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\Register.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\MUX.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\inner_modules\ALU.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\DataPath.v|D:\ut\Term4\CA_computer_artitucther\CA04\src\src\MIPS_MultiCycle.v|D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ut/Term4/CA_computer_artitucther/CA04/src/src/MIPS_TestBench.v|
+!i113 1
+R7
+R8
+n@test@bench
